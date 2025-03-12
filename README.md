@@ -1,4 +1,4 @@
-## Playwright with AgentGo
+# Playwright with AgentGo
 
 AgentGo provides a powerful platform for developers to seamlessly run, manage, and monitor headless browsers at scale.
 
