@@ -16,8 +16,8 @@ npm install
 
 ### 2. Create a .env file in the project root:
 
-```
-AGENTGO_API_KEY=your_api_key_here
+```bash
+cp .env.example .env
 ```
 
 ### 3. Get your AgentGo API Key:
