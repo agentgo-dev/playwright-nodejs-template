@@ -1,0 +1,29 @@
+{
+  "name": "playwright-nodejs-template",
+  "version": "0.0.1",
+  "description": "Clone this repository to get started with Playwright and AgentGo.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agentgo-dev/playwright-nodejs-template.git"
+  },
+  "private": "true",
+  "author": "mao <mao@allstream.ai>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agentgo-dev/playwright-nodejs-template/issues"
+  },
+  "homepage": "https://github.com/agentgo-dev/playwright-nodejs-template#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "playwright-core": "1.50"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7"
+  }
+}
