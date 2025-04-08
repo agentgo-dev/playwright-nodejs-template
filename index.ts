@@ -11,7 +11,7 @@ import 'dotenv/config';
   const urlOptionValue = encodeURIComponent(JSON.stringify(options));
 
   // Connect to AgentGo's distributed browser network
-  const serverUrl = `ws://any.browsers.live:3000?launch-options=${urlOptionValue}`;
+  const serverUrl = `wss://app.browsers.live?launch-options=${urlOptionValue}`;
   const browser = await chromium.connect(serverUrl);
 
   // Create a new page
